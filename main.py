@@ -10,12 +10,14 @@ from datetime import date, time, timedelta
 from selenium import webdriver
 
 import json
-import time
+from datetime import time
+import os
 
 _URL = "http://wakatime.com/dashboard"
 
 Last_7_Days_Date_List = []
 Last_7_Days_Time_List = []
+temp = []
 Last_7_Days_Second_List = []
 
 today = date.today()
@@ -40,17 +42,26 @@ for day in Last_7_Days_Date_List:
     Last_7_Days_Time_List.append(times)
 driver.quit()
 
+
 for times in Last_7_Days_Time_List:
     splited = times.split(" ")
-    if len(splited) == "2":
+    if len(splited) == 2:
         #mins data
         CODE_hour = 0
         CODE_min = splited[0]
-        converted_time = time(0, CODE_min, 0)
-    elif len(splited) == "4":
+        converted_time = time(0, int(CODE_min), 0)
+
+        temp.append(time(0, int(CODE_min), 0))
+        Last_7_Days_Second_List.append(converted_time.second)
+    elif len(splited) == 4:
         #hours, mins data
         CODE_hour = splited[0]
         CODE_min = splited[2]
-        converted_time = time(CODE_hour, CODE_min)
+        converted_time = time(int(CODE_hour), int(CODE_min),0)
+
+        temp.append(time(int(CODE_hour), int(CODE_min),0))
+        Last_7_Days_Second_List.append(converted_time.second)
     else:
         print("ERROR", splited,len(splited))
+print(temp)
+print(Last_7_Days_Second_List)
