@@ -10,7 +10,7 @@ from datetime import date, time, timedelta
 from selenium import webdriver
 
 import json
-from datetime import time
+from datetime import time, date, timedelta
 import os
 
 _URL = "http://wakatime.com/dashboard"
@@ -42,7 +42,7 @@ for day in Last_7_Days_Date_List:
     Last_7_Days_Time_List.append(times)
 driver.quit()
 
-
+os.system('cls')
 for times in Last_7_Days_Time_List:
     splited = times.split(" ")
     if len(splited) == 2:
