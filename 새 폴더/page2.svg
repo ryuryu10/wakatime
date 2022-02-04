@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-SPRK_default_preset_name_custom_2);
+      }
+
+      .cls-2 {
+        fill: #333340;
+      }
+
+      .cls-3 {
+        fill: rgba(255,255,255,0.74);
+        font-size: 18px;
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: rgba(255,255,255,0.6);
+        stroke-miterlimit: 10;
+        stroke-dasharray: 1 3;
+      }
+
+      .cls-5 {
+        fill: #147ad6;
+      }
+
+      .cls-6 {
+        fill: #fff;
+        font-size: 32px;
+        font-family: NanumGothic;
+      }
+
+      .cls-7 {
+        fill: #282833;
+      }
+    </style>
+    <clipPath id="clip-SPRK_default_preset_name_custom_2">
+      <rect width="1080" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="SPRK_default_preset_name_custom_2" data-name="SPRK_default_preset_name_custom – 2" class="cls-1">
+    <rect class="cls-7" width="1080" height="1080"/>
+    <g id="UI_Element_Dark_Column_charts_Single_chart_01" data-name="UI Element/Dark/Column charts/Single chart 01" transform="translate(40 40)">
+      <g id="UI_Element_Column_charts_Single_chart_01_Copy" data-name="UI Element/Column charts/Single chart 01 Copy">
+        <g id="Mobile-chart-background">
+          <rect id="Rectangle_Copy_16" data-name="Rectangle Copy 16" class="cls-2" width="1000" height="1000" rx="12"/>
+        </g>
+        <g id="Chart" transform="translate(15.741 292.593)">
+          <g id="Chart-grid" transform="translate(0 0)">
+            <g id="y-axis" transform="translate(0 -16.534)">
+              <text id="_0" data-name="0" class="cls-3" transform="translate(0 582.428)"><tspan x="98.63" y="19">0</tspan></text>
+              <text id="_250" data-name="250" class="cls-3" transform="translate(0 378.769)"><tspan x="48.603" y="19">1h 30m</tspan></text>
+              <text id="_500" data-name="500" class="cls-3" transform="translate(0 176.061)"><tspan x="48.603" y="19">6h 47m</tspan></text>
+              <text id="_750" data-name="750" class="cls-3"><tspan x="38.9" y="19">16h 10m</tspan></text>
+            </g>
+            <g id="x-axis" transform="translate(133.333 625)">
+              <text id="M" class="cls-3" transform="translate(0)"><tspan x="21.531" y="19">11/11</tspan></text>
+              <text id="T" class="cls-3" transform="translate(338.227 0.356)"><tspan x="21.531" y="19">11/14</tspan></text>
+              <text id="S" class="cls-3" transform="translate(569.974 0.356)"><tspan x="21.531" y="19">11/16</tspan></text>
+              <text id="S-2" data-name="S" class="cls-3" transform="translate(686.111)"><tspan x="21.531" y="19">11/17</tspan></text>
+              <text id="T-2" data-name="T" class="cls-3" transform="translate(116.005 0.356)"><tspan x="21.531" y="19">11/12</tspan></text>
+              <text id="F" class="cls-3" transform="translate(453.704)"><tspan x="21.531" y="19">11/15</tspan></text>
+              <text id="W" class="cls-3" transform="translate(231.481)"><tspan x="16.902" y="19">11/13</tspan></text>
+            </g>
+          </g>
+          <path id="Average-line" class="cls-4" d="M.5.5H787.8" transform="translate(120.532 174.266)"/>
+          <g id="column-charts" transform="translate(146.296 27.778)">
+            <g id="Charts_Columns_Bars_Single-column-size01" data-name="Charts/Columns&amp;Bars/Single-column-size01" transform="translate(685.185 263.889)">
+              <rect id="Rectangle_Copy_21" data-name="Rectangle Copy 21" class="cls-5" width="63.889" height="302.778" rx="4"/>
+            </g>
+            <g id="Charts_Columns_Bars_Single-column-size01-2" data-name="Charts/Columns&amp;Bars/Single-column-size01" transform="translate(571.296 333.333)">
+              <rect id="Rectangle_Copy_21-2" data-name="Rectangle Copy 21" class="cls-5" width="63.889" height="233.333" rx="4"/>
+            </g>
+            <g id="Charts_Columns_Bars_Single-column-size01-3" data-name="Charts/Columns&amp;Bars/Single-column-size01" transform="translate(457.407 102.778)">
+              <rect id="Rectangle_Copy_21-3" data-name="Rectangle Copy 21" class="cls-5" width="63.889" height="463.889" rx="4"/>
+            </g>
+            <g id="Charts_Columns_Bars_Single-column-size01-4" data-name="Charts/Columns&amp;Bars/Single-column-size01" transform="translate(342.593 282.407)">
+              <rect id="Rectangle_Copy_21-4" data-name="Rectangle Copy 21" class="cls-5" width="63.889" height="284.259" rx="4"/>
+            </g>
+            <g id="Charts_Columns_Bars_Single-column-size01-5" data-name="Charts/Columns&amp;Bars/Single-column-size01" transform="translate(229.63 -33.333)">
+              <rect id="Rectangle_Copy_21-5" data-name="Rectangle Copy 21" class="cls-5" width="63.889" height="600" rx="4"/>
+            </g>
+            <g id="Charts_Columns_Bars_Single-column-size01-6" data-name="Charts/Columns&amp;Bars/Single-column-size01" transform="translate(113.889 169.444)">
+              <rect id="Rectangle_Copy_21-6" data-name="Rectangle Copy 21" class="cls-5" width="63.889" height="397.222" rx="4"/>
+            </g>
+            <g id="Charts_Columns_Bars_Single-column-size01-7" data-name="Charts/Columns&amp;Bars/Single-column-size01" transform="translate(0 366.667)">
+              <rect id="Rectangle_Copy_21-7" data-name="Rectangle Copy 21" class="cls-5" width="63.889" height="200" rx="4"/>
+            </g>
+          </g>
+        </g>
+        <text id="Numbers" class="cls-6" transform="translate(50.926 43.519)"><tspan x="0" y="29">지난 7일 프로그래밍 그래프</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-SPRK_default_preset_name_custom_1);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+        font-family: NanumGothic;
+      }
+
+      .cls-2 {
+        font-size: 82px;
+      }
+
+      .cls-3 {
+        font-size: 150px;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#14115b"/>
+      <stop offset="1" stop-color="#530a0a"/>
+    </linearGradient>
+    <clipPath id="clip-SPRK_default_preset_name_custom_1">
+      <rect width="1080" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="SPRK_default_preset_name_custom_1" data-name="SPRK_default_preset_name_custom – 1" class="cls-1">
+    <rect class="cls-4" width="1080" height="1080"/>
+    <text id="_2022" data-name="2022" class="cls-2" transform="translate(448 435)"><tspan x="0" y="0">2022</tspan></text>
+    <text id="_2월_3일_목_" data-name="2월 3일 (목)" class="cls-3" transform="translate(148 592)"><tspan x="0" y="0">2월 3일 (목)</tspan></text>
+  </g>
+</svg>
