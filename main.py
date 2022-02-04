@@ -11,6 +11,7 @@ from selenium import webdriver
 
 import json
 from datetime import time, date, timedelta
+import datetime
 import os
 
 _URL = "http://wakatime.com/dashboard"
@@ -45,23 +46,18 @@ driver.quit()
 os.system('cls')
 for times in Last_7_Days_Time_List:
     splited = times.split(" ")
+    temp_seconds = 0
     if len(splited) == 2:
-        #mins data
-        CODE_hour = 0
-        CODE_min = splited[0]
-        converted_time = time(0, int(CODE_min), 0)
+        temp_seconds = int(splited[0]) * 60
+        Last_7_Days_Second_List.append(temp_seconds)
+        print(datetime.timedelta(seconds=int(temp_seconds)))
 
-        temp.append(time(0, int(CODE_min), 0))
-        Last_7_Days_Second_List.append(converted_time.second)
     elif len(splited) == 4:
-        #hours, mins data
-        CODE_hour = splited[0]
-        CODE_min = splited[2]
-        converted_time = time(int(CODE_hour), int(CODE_min),0)
+        temp_seconds = int(splited[0]) * 3600
+        temp_seconds += int(splited[2]) * 60
+        Last_7_Days_Second_List.append(temp_seconds)
+        print(datetime.timedelta(seconds=int(temp_seconds)))
 
-        temp.append(time(int(CODE_hour), int(CODE_min),0))
-        Last_7_Days_Second_List.append(converted_time.second)
     else:
         print("ERROR", splited,len(splited))
-print(temp)
 print(Last_7_Days_Second_List)
