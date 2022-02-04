@@ -13,9 +13,11 @@ from datetime import time, date, timedelta
 import datetime
 import os
 
+
 from function import image1, image2, image3
 
 _URL = "http://wakatime.com/dashboard"
+_AUTOLOGIN = True
 
 #MTY : 567
 #ㄴ H : 0
@@ -38,6 +40,16 @@ driver = webdriver.Chrome("chromedriver.exe")
 driver.get(_URL)
 driver.implicitly_wait(10)
 print("Login wait")
+if _AUTOLOGIN == True:
+    import json
+    with open('config.json') as f:
+        login_data = json.load(f)
+    driver.find_element_by_xpath('/html/body/div[2]/div/div/div[2]/div/div/div[1]/div/a').click()
+    WebDriverWait(driver,timeout=999).until(EC.presence_of_element_located((By.XPATH, '//*[@id="login"]/div[3]')))
+    driver.find_element_by_xpath('//*[@id="login_field"]').send_keys(login_data['id'])
+    driver.find_element_by_xpath('//*[@id="password"]').send_keys(login_data['pw'])
+    driver.find_element_by_xpath('//*[@id="login"]/div[3]/form/div/input[12]').click()
+    pass
 p_tag = WebDriverWait(driver,timeout=999).until(EC.presence_of_element_located((By.CLASS_NAME, "bb-chart")))
 print("Login End")
 for day in Last_7_Days_Date_List:
