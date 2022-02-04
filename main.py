@@ -1,20 +1,24 @@
+from email.mime import image
 from logging import raiseExceptions
 from multiprocessing.pool import INIT
 from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
 
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from datetime import date, time, timedelta
+from datetime import date, timedelta
 from selenium import webdriver
 
-import json
 from datetime import time, date, timedelta
 import datetime
 import os
 
+from function import image1, image2, image3
+
 _URL = "http://wakatime.com/dashboard"
+
+#MTY : 567
+#ㄴ H : 0
 
 Last_7_Days_Date_List = []
 Last_7_Days_Time_List = []
@@ -60,4 +64,5 @@ for times in Last_7_Days_Time_List:
 
     else:
         print("ERROR", splited,len(splited))
-print(Last_7_Days_Second_List)
+
+image1.maker(Last_7_Days_Second_List)
