@@ -1,4 +1,4 @@
-from email.mime import image
+from ast import Import
 from logging import raiseExceptions
 from multiprocessing.pool import INIT
 from selenium import webdriver
@@ -12,7 +12,7 @@ from selenium import webdriver
 from datetime import time, date, timedelta
 import datetime
 import os
-
+Import json
 
 from function import image1, image2, image3
 
@@ -32,7 +32,6 @@ print(type(date.today() - timedelta(1)))
 for numbers in range(6,0,-1):
     Last_7_Days_Date_List.append(date.today() - timedelta(numbers))
 Last_7_Days_Date_List.append(date.today())
-
 
 options = webdriver.ChromeOptions()
 options.add_argument("--ignore-certificate-errors")
@@ -77,4 +76,4 @@ for times in Last_7_Days_Time_List:
     else:
         print("ERROR", splited,len(splited))
 
-image1.maker(Last_7_Days_Second_List, Last_7_Days_Date_List)
+image2.maker(Last_7_Days_Second_List, Last_7_Days_Date_List)

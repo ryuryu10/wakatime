@@ -40,7 +40,7 @@
       <rect width="1080" height="1080"/>
     </clipPath>
   </defs>
-  <g id="SPRK_default_preset_name_custom_2" data-name="SPRK_default_preset_name_custom – 2" class="cls-1">
+  <g id="SPRK_default_preset_name_custom_2" data-name="SPRK_default_preset_name_custom - 2" class="cls-1">
     <rect class="cls-7" width="1080" height="1080"/>
     <g id="UI_Element_Dark_Column_charts_Single_chart_01" data-name="UI Element/Dark/Column charts/Single chart 01" transform="translate(40 40)">
       <g id="UI_Element_Column_charts_Single_chart_01_Copy" data-name="UI Element/Column charts/Single chart 01 Copy">
@@ -53,7 +53,7 @@
               <text id="_0" data-name="0" class="cls-3" transform="translate(0 582.428)"><tspan x="98.63" y="19">0</tspan></text>
               <text id="_250" data-name="250" class="cls-3" transform="translate(0 378.769)"><tspan x="48.603" y="19">1h 30m</tspan></text>
               <text id="_500" data-name="500" class="cls-3" transform="translate(0 176.061)"><tspan x="48.603" y="19">6h 47m</tspan></text>
-              <text id="_750" data-name="750" class="cls-3"><tspan x="38.9" y="19">16h 10m</tspan></text>
+              <text id="_750" data-name="750" class="cls-3"><tspan x="38.9" y="19">{{ tempdata }}</tspan></text>
             </g>
             <g id="x-axis" transform="translate(133.333 625)">
               <text id="M" class="cls-3" transform="translate(0)"><tspan x="21.531" y="19">11/11</tspan></text>
