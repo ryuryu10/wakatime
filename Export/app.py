@@ -1,7 +1,6 @@
-from ossaudiodev import openmixer
+
 from flask import Flask
 from flask import render_template
-from flask.helpers import total_seconds
 
 import json
 import pickle
@@ -9,7 +8,7 @@ import pickle
 app = Flask(__name__)
 
 @app.route("/page3")
-def main():
+def firstfunc():
 
     with open('dump.json') as f:
         OPENED_json = json.load(f)
@@ -48,11 +47,25 @@ def main():
         )
 
 @app.route('/page2')
-def main():
+def secondfunc():
+
+    sums = 0
+
     with open('Database\days.pkl', 'rb') as f:
         days = pickle.load(f)
     with open('Database\seconds.pkl', 'rb') as f:
         seconds = pickle.load(f)
+    print(days, seconds)
+
+    for a in seconds:
+        sums += a
+
+    return render_template(
+        'page3.svg',
+        today_time = seconds[-1],
+        last7days_time = sums,
+        total_time = '111'
+    )
 
 if __name__ == "__main__":
     app.run(debug=True)

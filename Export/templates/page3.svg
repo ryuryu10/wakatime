@@ -8,16 +8,16 @@
       <rect width="1080" height="1080"/>
     </clipPath>
   </defs>
-  <g id="SPRK_default_preset_name_custom_4" data-name="SPRK_default_preset_name_custom – 4" clip-path="url(#clip-SPRK_default_preset_name_custom_4)">
+  <g id="SPRK_default_preset_name_custom_4" data-name="SPRK_default_preset_name_custom - 4" clip-path="url(#clip-SPRK_default_preset_name_custom_4)">
     <rect width="1080" height="1080" fill="url(#linear-gradient)"/>
     <rect id="사각형_1" data-name="사각형 1" width="1009" height="1018" rx="4" transform="translate(33 29)" fill="rgba(255,255,255,0.11)"/>
     <line id="선_1" data-name="선 1" y2="485" transform="translate(543.5 55.5)" fill="none" stroke="#707070" stroke-width="1"/>
     <line id="선_2" data-name="선 2" x1="7" y2="970" transform="translate(1025 537) rotate(90)" fill="none" stroke="#707070" stroke-width="1"/>
-    <text id="_11H_11M" data-name="11H 11M" transform="translate(287 304)" fill="#fff" font-size="56" font-family="SegoeUI, Segoe UI"><tspan x="-113.066" y="0">11H 11M</tspan></text>
+    <text id="_11H_11M" data-name="11H 11M" transform="translate(287 304)" fill="#fff" font-size="56" font-family="SegoeUI, Segoe UI"><tspan x="-113.066" y="0">{{ today_time }}</tspan></text>
     <text id="오늘_프로그래밍_시간" data-name="오늘 프로그래밍 시간" transform="translate(287 238)" fill="#fff" font-size="25" font-family="MalgunGothic, Malgun Gothic"><tspan x="-119.348" y="0">오늘</tspan><tspan y="0" font-family="SegoeUI, Segoe UI"> </tspan><tspan y="0">프로그래밍</tspan><tspan y="0" font-family="SegoeUI, Segoe UI"> </tspan><tspan y="0">시간</tspan></text>
-    <text id="_11H_11M-2" data-name="11H 11M" transform="translate(794 307)" fill="#fff" font-size="56" font-family="SegoeUI, Segoe UI"><tspan x="-113.066" y="0">11H 11M</tspan></text>
+    <text id="_11H_11M-2" data-name="11H 11M" transform="translate(794 307)" fill="#fff" font-size="56" font-family="SegoeUI, Segoe UI"><tspan x="-113.066" y="0">{{ last7days_time }}</tspan></text>
     <text id="최근_7일_프로그래밍_시간" data-name="최근 7일 프로그래밍 시간" transform="translate(794 241)" fill="#fff" font-size="25" font-family="MalgunGothic, Malgun Gothic"><tspan x="-142.01" y="0">최근</tspan><tspan y="0" xml:space="preserve" font-family="SegoeUI, Segoe UI"> 7</tspan><tspan y="0">일</tspan><tspan y="0" font-family="SegoeUI, Segoe UI"> </tspan><tspan y="0">프로그래밍</tspan><tspan y="0" font-family="SegoeUI, Segoe UI"> </tspan><tspan y="0">시간</tspan></text>
-    <text id="_11H_11M-3" data-name="11H 11M" transform="translate(540 818)" fill="#fff" font-size="56" font-family="SegoeUI, Segoe UI"><tspan x="-113.066" y="0">11H 11M</tspan></text>
+    <text id="_11H_11M-3" data-name="11H 11M" transform="translate(540 818)" fill="#fff" font-size="56" font-family="SegoeUI, Segoe UI"><tspan x="-113.066" y="0">{{ total_time }}</tspan></text>
     <text id="총_프로그래밍_시간" data-name="총 프로그래밍 시간" transform="translate(540 752)" fill="#fff" font-size="25" font-family="MalgunGothic, Malgun Gothic"><tspan x="-106.848" y="0">총</tspan><tspan y="0" font-family="SegoeUI, Segoe UI"> </tspan><tspan y="0">프로그래밍</tspan><tspan y="0" font-family="SegoeUI, Segoe UI"> </tspan><tspan y="0">시간</tspan></text>
   </g>
 </svg>

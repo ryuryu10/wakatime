@@ -22,7 +22,6 @@ def maker(seconds_data, date):
 
     for a in seconds_data:
         temp = 600 * a
-        print(temp/ max(seconds_data))
         graphs.append(math.trunc(temp / max(seconds_data)))
 
         json_data = {

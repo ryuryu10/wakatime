@@ -18,7 +18,7 @@ from function import image1, image2, image3
 
 _URL = "http://wakatime.com/dashboard"
 _AUTOLOGIN = True
-_DEBUG = True
+_DEBUG = False
 
 #MTY : 567
 #ㄴ H : 0
@@ -65,21 +65,17 @@ for times in Last_7_Days_Time_List:
     if len(splited) == 2:
         temp_seconds = int(splited[0]) * 60
         Last_7_Days_Second_List.append(temp_seconds)
-        print(datetime.timedelta(seconds=int(temp_seconds)))
 
     elif len(splited) == 4:
         temp_seconds = int(splited[0]) * 3600
         temp_seconds += int(splited[2]) * 60
         Last_7_Days_Second_List.append(temp_seconds)
-        print(datetime.timedelta(seconds=int(temp_seconds)))
 
     else:
         print("ERROR", splited,len(splited))
-    
-
 
 image2.maker(Last_7_Days_Second_List, Last_7_Days_Date_List)
-image3.maker()
+image3.maker(Last_7_Days_Date_List, Last_7_Days_Second_List)
 
 if _DEBUG == True:
     print(Last_7_Days_Date_List)
