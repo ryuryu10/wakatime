@@ -56,37 +56,37 @@
               <text id="_750" data-name="750" class="cls-3"><tspan x="48.603" y="19">{{ sidebar4 }}</tspan></text>
             </g>
             <g id="x-axis" transform="translate(133.333 625)">
-              <text id="M" class="cls-3" transform="translate(0)"><tspan x="21.531" y="19">11/11</tspan></text>
-              <text id="T" class="cls-3" transform="translate(338.227 0.356)"><tspan x="21.531" y="19">11/14</tspan></text>
-              <text id="S" class="cls-3" transform="translate(569.974 0.356)"><tspan x="21.531" y="19">11/16</tspan></text>
-              <text id="S-2" data-name="S" class="cls-3" transform="translate(686.111)"><tspan x="21.531" y="19">11/17</tspan></text>
-              <text id="T-2" data-name="T" class="cls-3" transform="translate(116.005 0.356)"><tspan x="21.531" y="19">11/12</tspan></text>
-              <text id="F" class="cls-3" transform="translate(453.704)"><tspan x="21.531" y="19">11/15</tspan></text>
-              <text id="W" class="cls-3" transform="translate(231.481)"><tspan x="16.902" y="19">11/13</tspan></text>
+              <text id="M" class="cls-3" transform="translate(0)"><tspan x="21.531" y="19">{{ date1 }}</tspan></text>
+              <text id="T" class="cls-3" transform="translate(338.227 0.356)"><tspan x="25.531" y="19">{{ date2 }}</tspan></text>
+              <text id="S" class="cls-3" transform="translate(569.974 0.356)"><tspan x="21.531" y="19">{{ date3 }}</tspan></text>
+              <text id="S-2" data-name="S" class="cls-3" transform="translate(686.111)"><tspan x="21.531" y="19">{{ date4 }}</tspan></text>
+              <text id="T-2" data-name="T" class="cls-3" transform="translate(116.005 0.356)"><tspan x="21.531" y="19">{{ date5 }}</tspan></text>
+              <text id="F" class="cls-3" transform="translate(453.704)"><tspan x="25.531" y="19">{{ date6 }}</tspan></text>
+              <text id="W" class="cls-3" transform="translate(231.481)"><tspan x="19.5" y="19">{{ date7 }}</tspan></text>
             </g>
           </g>
           <path id="Average-line" class="cls-4" d="M.5.5H787.8" transform="translate(120.532 174.266)"/>
           <g id="column-charts" transform="translate(146.296 27.778)">
-            <g id="Charts_Columns_Bars_Single-column-size01" data-name="Charts/Columns&amp;Bars/Single-column-size01" transform="translate(685.185 263.889)">
-              <rect id="Rectangle_Copy_21" data-name="Rectangle Copy 21" class="cls-5" width="63.889" height="302.778" rx="4"/>
+            <g id="Charts_Columns_Bars_Single-column-size01" data-name="Charts/Columns&amp;Bars/Single-column-size01" transform="translate(685.185 {{ position7 }})">
+              <rect id="Rectangle_Copy_21" data-name="Rectangle Copy 21" class="cls-5" width="63.889" height="{{ height7 }}" rx="4"/>
             </g>
-            <g id="Charts_Columns_Bars_Single-column-size01-2" data-name="Charts/Columns&amp;Bars/Single-column-size01" transform="translate(571.296 333.333)">
-              <rect id="Rectangle_Copy_21-2" data-name="Rectangle Copy 21" class="cls-5" width="63.889" height="233.333" rx="4"/>
+            <g id="Charts_Columns_Bars_Single-column-size01-2" data-name="Charts/Columns&amp;Bars/Single-column-size01" transform="translate(571.296 {{ position6 }})">
+              <rect id="Rectangle_Copy_21-2" data-name="Rectangle Copy 21" class="cls-5" width="63.889" height="{{ height6 }}" rx="4"/>
             </g>
-            <g id="Charts_Columns_Bars_Single-column-size01-3" data-name="Charts/Columns&amp;Bars/Single-column-size01" transform="translate(457.407 102.778)">
-              <rect id="Rectangle_Copy_21-3" data-name="Rectangle Copy 21" class="cls-5" width="63.889" height="463.889" rx="4"/>
+            <g id="Charts_Columns_Bars_Single-column-size01-3" data-name="Charts/Columns&amp;Bars/Single-column-size01" transform="translate(457.407 {{ position5 }})">
+              <rect id="Rectangle_Copy_21-3" data-name="Rectangle Copy 21" class="cls-5" width="63.889" height="{{ height5 }}" rx="4"/>
             </g>
-            <g id="Charts_Columns_Bars_Single-column-size01-4" data-name="Charts/Columns&amp;Bars/Single-column-size01" transform="translate(342.593 282.407)">
-              <rect id="Rectangle_Copy_21-4" data-name="Rectangle Copy 21" class="cls-5" width="63.889" height="284.259" rx="4"/>
+            <g id="Charts_Columns_Bars_Single-column-size01-4" data-name="Charts/Columns&amp;Bars/Single-column-size01" transform="translate(342.593 {{ position4 }})">
+              <rect id="Rectangle_Copy_21-4" data-name="Rectangle Copy 21" class="cls-5" width="63.889" height="{{ height4 }}" rx="4"/>
             </g>
-            <g id="Charts_Columns_Bars_Single-column-size01-5" data-name="Charts/Columns&amp;Bars/Single-column-size01" transform="translate(229.63 -33.333)">
-              <rect id="Rectangle_Copy_21-5" data-name="Rectangle Copy 21" class="cls-5" width="63.889" height="600" rx="4"/>
+            <g id="Charts_Columns_Bars_Single-column-size01-5" data-name="Charts/Columns&amp;Bars/Single-column-size01" transform="translate(229.63 {{ position3 }})">
+              <rect id="Rectangle_Copy_21-5" data-name="Rectangle Copy 21" class="cls-5" width="63.889" height="{{ height3 }}" rx="4"/>
             </g>
-            <g id="Charts_Columns_Bars_Single-column-size01-6" data-name="Charts/Columns&amp;Bars/Single-column-size01" transform="translate(113.889 169.444)">
-              <rect id="Rectangle_Copy_21-6" data-name="Rectangle Copy 21" class="cls-5" width="63.889" height="397.222" rx="4"/>
+            <g id="Charts_Columns_Bars_Single-column-size01-6" data-name="Charts/Columns&amp;Bars/Single-column-size01" transform="translate(113.889 {{ position2 }})">
+              <rect id="Rectangle_Copy_21-6" data-name="Rectangle Copy 21" class="cls-5" width="63.889" height="{{ height2 }}" rx="4"/>
             </g>
-            <g id="Charts_Columns_Bars_Single-column-size01-7" data-name="Charts/Columns&amp;Bars/Single-column-size01" transform="translate(0 366.667)">
-              <rect id="Rectangle_Copy_21-7" data-name="Rectangle Copy 21" class="cls-5" width="63.889" height="200" rx="4"/>
+            <g id="Charts_Columns_Bars_Single-column-size01-7" data-name="Charts/Columns&amp;Bars/Single-column-size01" transform="translate(0 {{ position1 }})">
+              <rect id="Rectangle_Copy_21-7" data-name="Rectangle Copy 21" class="cls-5" width="63.889" height="{{ height1 }}" rx="4"/>
             </g>
           </g>
         </g>
