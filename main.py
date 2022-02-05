@@ -18,6 +18,7 @@ from function import image1, image2, image3
 
 _URL = "http://wakatime.com/dashboard"
 _AUTOLOGIN = True
+_DEBUG = True
 
 #MTY : 567
 #ㄴ H : 0
