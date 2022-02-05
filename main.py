@@ -77,4 +77,4 @@ for times in Last_7_Days_Time_List:
     else:
         print("ERROR", splited,len(splited))
 
-image1.maker(Last_7_Days_Second_List)
+image1.maker(Last_7_Days_Second_List, Last_7_Days_Date_List)
