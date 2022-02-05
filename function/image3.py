@@ -1,2 +1,10 @@
+import json
+import pickle
+
 def maker():
-    paas
+    saves_data = {
+        
+    }
+
+    pass
+

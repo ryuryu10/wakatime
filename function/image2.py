@@ -4,8 +4,6 @@ import datetime
 import json
 
 from datetime import time, date, timedelta
-from collections import OrderedDict
-from turtle import down
 
 def maker(seconds_data, date):
 

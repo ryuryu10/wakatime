@@ -1,27 +1,23 @@
+from ossaudiodev import openmixer
 from flask import Flask
 from flask import render_template
 from flask.helpers import total_seconds
 
 import json
+import pickle
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/page3")
 def main():
 
     with open('dump.json') as f:
         OPENED_json = json.load(f)
-    
-    print(OPENED_json['DUMP_version'])
-    print(OPENED_json['DATAS']['sidebar'])
-    print(OPENED_json['DATAS']['graphs'])
-    print(OPENED_json['DATAS']['down_bar'])
 
     sbar1 = OPENED_json['DATAS']['sidebar'][1].split(":")
     sbar2 = OPENED_json['DATAS']['sidebar'][2].split(":")
     sbar3 = OPENED_json['DATAS']['sidebar'][3].split(":")
     
-        
     return render_template(
         'page2.svg', 
         sidebar1 = "0h 0m",
@@ -49,9 +45,14 @@ def main():
         position5 = 567 - int(OPENED_json['DATAS']['graphs'][4]),
         position6 = 567 - int(OPENED_json['DATAS']['graphs'][5]),
         position7 = 567 - int(OPENED_json['DATAS']['graphs'][6])
-        
-        
         )
+
+@app.route('/page2')
+def main():
+    with open('Database\days.pkl', 'rb') as f:
+        days = pickle.load(f)
+    with open('Database\seconds.pkl', 'rb') as f:
+        seconds = pickle.load(f)
 
 if __name__ == "__main__":
     app.run(debug=True)
