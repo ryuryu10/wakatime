@@ -1,6 +1,11 @@
+from encodings import utf_8
 import math
-from datetime import time, date, timedelta
 import datetime
+import json
+
+from datetime import time, date, timedelta
+from collections import OrderedDict
+from turtle import down
 
 def maker(seconds_data, date):
 
@@ -21,3 +26,13 @@ def maker(seconds_data, date):
         temp = 600 * a
         print(temp/ max(seconds_data))
         graphs.append(math.trunc(temp / max(seconds_data)))
+    
+    json_dump = OrderedDict()
+    json_dump['DUMP_version'] == "1"
+    json_dump['DATAS'] = {
+        'sidebar' : sidebar,
+        'graphs' : graphs,
+        'down_bar' : down_bar
+    }
+    with open('Export\dump.json','w', encoding="utf-8") as make_file:
+        json.dump(json_dump, make_file, ensure_ascii=False, indent='\t')

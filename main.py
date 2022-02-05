@@ -12,7 +12,7 @@ from selenium import webdriver
 from datetime import time, date, timedelta
 import datetime
 import os
-Import json
+
 
 from function import image1, image2, image3
 
@@ -28,7 +28,6 @@ temp = []
 Last_7_Days_Second_List = []
 
 today = date.today()
-print(type(date.today() - timedelta(1)))
 for numbers in range(6,0,-1):
     Last_7_Days_Date_List.append(date.today() - timedelta(numbers))
 Last_7_Days_Date_List.append(date.today())
