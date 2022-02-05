@@ -77,3 +77,8 @@ for times in Last_7_Days_Time_List:
         print("ERROR", splited,len(splited))
 
 image2.maker(Last_7_Days_Second_List, Last_7_Days_Date_List)
+if _DEBUG == True:
+    print(Last_7_Days_Date_List)
+    print(Last_7_Days_Second_List)
+    print(Last_7_Days_Time_List)
+    

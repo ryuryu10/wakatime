@@ -50,10 +50,10 @@
         <g id="Chart" transform="translate(15.741 292.593)">
           <g id="Chart-grid" transform="translate(0 0)">
             <g id="y-axis" transform="translate(0 -16.534)">
-              <text id="_0" data-name="0" class="cls-3" transform="translate(0 582.428)"><tspan x="98.63" y="19">{{ sidebar1 }}</tspan></text>
+              <text id="_0" data-name="0" class="cls-3" transform="translate(0 582.428)"><tspan x="48.603" y="19">{{ sidebar1 }}</tspan></text>
               <text id="_250" data-name="250" class="cls-3" transform="translate(0 378.769)"><tspan x="48.603" y="19">{{ sidebar2 }}</tspan></text>
               <text id="_500" data-name="500" class="cls-3" transform="translate(0 176.061)"><tspan x="48.603" y="19">{{ sidebar3 }}</tspan></text>
-              <text id="_750" data-name="750" class="cls-3"><tspan x="38.9" y="19">{{ sidebar4 }}</tspan></text>
+              <text id="_750" data-name="750" class="cls-3"><tspan x="48.603" y="19">{{ sidebar4 }}</tspan></text>
             </g>
             <g id="x-axis" transform="translate(133.333 625)">
               <text id="M" class="cls-3" transform="translate(0)"><tspan x="21.531" y="19">11/11</tspan></text>
