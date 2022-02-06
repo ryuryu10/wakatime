@@ -5,6 +5,8 @@ from flask import render_template
 import json
 import pickle
 
+import os
+
 app = Flask(__name__)
 
 @app.route("/page3")
@@ -48,6 +50,7 @@ def firstfunc():
 
 @app.route('/page2')
 def secondfunc():
+    total_sums = 0
 
     sums = 0
 
@@ -60,11 +63,19 @@ def secondfunc():
     for a in seconds:
         sums += a
 
+    file_list = os.listdir('./Database/Archive')
+    for file in file_list:
+        f = open(f'Database\Archive\{file}', "r")
+        rd = f.read()
+        total_sums += int(rd)
+
+    print ("file_list: {}".format(file_list))   
+
     return render_template(
         'page3.svg',
         today_time = seconds[-1],
         last7days_time = sums,
-        total_time = '111'
+        total_time = total_sums
     )
 
 if __name__ == "__main__":

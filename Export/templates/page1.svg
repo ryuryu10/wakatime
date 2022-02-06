@@ -33,6 +33,6 @@
   <g id="SPRK_default_preset_name_custom_1" data-name="SPRK_default_preset_name_custom – 1" class="cls-1">
     <rect class="cls-4" width="1080" height="1080"/>
     <text id="_2022" data-name="2022" class="cls-2" transform="translate(448 435)"><tspan x="0" y="0">2022</tspan></text>
-    <text id="_2월_3일_목_" data-name="2월 3일 (목)" class="cls-3" transform="translate(148 592)"><tspan x="0" y="0">2월 3일 (목)</tspan></text>
+    <text id="_2월_3일_목_" data-name="2월 3일 (목)" class="cls-3" transform="translate(148 592)"><tspan x="0" y="0">{{ month }}월 {{ day }}일 ({{ letter }})</tspan></text>
   </g>
 </svg>
