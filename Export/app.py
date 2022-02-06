@@ -7,7 +7,25 @@ import pickle
 
 import os
 
+from datetime import date
+import datetime as dt
+
 app = Flask(__name__)
+
+@app.route('/page1')
+def firhunc():
+
+    datetime_date = date.today()
+    x = dt.datetime.now()
+    dateDict = {0: '월', 1:'화', 2:'수', 3:'목', 4:'금', 5:'토', 6:'일'}
+    dateDict[datetime_date.weekday()]
+
+    return render_template(
+        'page1.svg',
+        month = x.month,
+        day = x.day,
+        letter = dateDict[datetime_date.weekday()]
+    )
 
 @app.route("/page3")
 def firstfunc():
